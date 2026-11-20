@@ -17,4 +17,6 @@ cask "zorderly" do
   caveats do
     unsigned_accessibility
   end
+
+  caveats "This is an unnotarized preview. macOS may require approval in System Settings > Privacy & Security before its first launch."
 end
