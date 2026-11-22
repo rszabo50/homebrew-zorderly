@@ -13,8 +13,4 @@ cask "zorderly" do
   app "ZOrderly.app"
 
   uninstall quit: "dev.zorderly.app"
-
-  caveats do
-    unsigned_accessibility
-  end
 end
