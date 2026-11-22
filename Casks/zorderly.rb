@@ -1,8 +1,8 @@
 cask "zorderly" do
-  version "0.1.0"
-  sha256 "cb2e4ac2c82bb7e73c5e7a854dcf703fec4437db63188d1bfbb39c3c2fbc137d"
+  version "0.1.1"
+  sha256 "f0f72205d995d6693d91da27de562589c2c45b489132685baa3f49649e96bb19"
 
-  url "https://github.com/rszabo50/zorderly/releases/download/v#{version}/ZOrderly-#{version}-macos-arm64-UNNOTARIZED.zip"
+  url "https://github.com/rszabo50/zorderly/releases/download/v#{version}/ZOrderly-#{version}-macos-arm64.zip"
   name "ZOrderly"
   desc "Configurable window focus and stacking prototype for macOS"
   homepage "https://github.com/rszabo50/zorderly"
@@ -17,6 +17,4 @@ cask "zorderly" do
   caveats do
     unsigned_accessibility
   end
-
-  caveats "This is an unnotarized preview. macOS may require approval in System Settings > Privacy & Security before its first launch."
 end
